@@ -50,7 +50,7 @@
 		border: 1px;
 	}
 	
-	table{
+	#sch_table{
 		width: 90%;
 		text-align: center;
 		border: 
@@ -79,4 +79,42 @@
 		width: 10%;
 	}
 	
+#student_div{
+	height: 100px;
 	
+}
+
+#question_div{
+	height: 100px;
+	text-align: right;
+	
+}
+
+#tutor_header{
+	text-align: center;
+}
+
+#tutor_list_table_div{
+	width: 80%;
+}
+
+#tutor_list_table{
+	text-align: auto;
+}
+
+.smiley{
+	padding-left: 25px;
+	padding-top: 5px;
+}
+
+h4 {
+	padding-left: 115px;
+}
+
+.yourName {
+	padding-top: 10px;
+}
+
+footer{
+	background-color: #d6d8d9;
+}
