@@ -4,12 +4,12 @@
 <head>
   <title>LCC CIT Lab Student Home</title>
   
-  <link rel="stylesheet" type="text/css"
-          href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/wellFix.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  
@@ -32,8 +32,8 @@
 	<div class="collapse navbar-collapse" id="navbar">
 	  <ul class="nav navbar-nav">
 		<li class="active"><a href="#">Home</a></li>
-		<li><a href="#">Schedule</a></li>
-		<li><a href="#">Questions</a></li>
+		<li><a href="schedule.php">Schedule</a></li>
+		<li><a href="ask.php">Questions</a></li>
 	  </ul>
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="#"><span class="glyphicon glyphicon-envelope"><span class="badge">1</span></span></a></li>
@@ -74,9 +74,32 @@
 		<h4><a href="#">Edit Profile</a></h4>
 	  </div>
 	  <div class="col-lg-6 well" id="question_div">
-		<table >
-			<tr>Place Holder for Ryans question table</tr>
-		</table>
+		                   <table class="table table-condensed">
+                        <tr>
+                            <th>Subject</th>
+                            <th>Description</th>
+                            <th>Status</th>
+                            <th>Timestamp</th>
+                        </tr>
+                        <tr>
+                            <td name="Subject">CIS101</td>
+                            <td name="Description">A cool question about cool stuff</td>
+                            <td name="Status">Unanswered</td>
+                            <td>11/29/16 9:00 A.M.</td>             
+                        </tr>
+                        <tr>
+                            <td name="Subject">CIS151</td>
+                            <td name="Description">A  question about stuff</td>
+                            <td name="Status">Answered</td>
+                            <td>11/29/16 9:00 A.M.</td>
+                        </tr>
+                        <tr>
+                            <td name="Subject">CIS101</td>
+                            <td name="Description">A question about stuff</td>
+                            <td name="Status">Unanswered</td>
+                            <td>11/29/16 9:00 A.M.</td>
+                        </tr>
+                    </table>
 	  </div>
 	</div>
 </div>
